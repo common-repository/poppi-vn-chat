@@ -1,0 +1,58 @@
+.poppi-chat-title{
+  color: #000;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2px;
+}
+.poppi-chat .update{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.poppi-chat .error{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.poppi-chat .update p,.poppi-chat .error p{
+  margin: 0px;
+  font-weight: bold;
+}
+.poppi-chat-content{
+  background-color: #fff;
+  display: inline-block;
+  max-width: 60%;
+}
+.poppi-chat-form label{
+  padding-left: 15px
+}
+.poppi-chat-form a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.poppi-chat-form input{
+  height: 35px;
+  display: inline-block;
+  width: calc(100% - 30px);
+  margin:15px;
+}
+.poppi-chat-form input[type='submit']{
+  width: 120px;
+  margin-left: 15px;
+}
+
+.poppi-chat-form span{
+  padding-left: 15px
+}
